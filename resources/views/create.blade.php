@@ -37,10 +37,10 @@
   <div class="card-body">
     <h5 class="card-title">{{$trainer->Marca}} {{$trainer->Modelo}} {{$trainer->Diseño}} {{$trainer->Color}} {{$trainer->Talla}}</h5>
     
-    <a href="/delete/{{$trainer->id}}" class="btn btn-primary">Borrar...</a>
-    <a href="/trainers/{{$trainer->id}}/edit" class="btn-btn-secondary">Editar... </a>
-    <a href="/trainers/{{$trainer->id}}" class="btn btn-secondary"> Mostrar... </a>
-    <a href="/imprimir" class="btn btn-secondary"> Imprimir. </a>
+    <a href="/delete/{{$trainer->id}}" class="btn btn-dark">Borrar...</a>
+    <a href="/trainers/{{$trainer->id}}/edit" class="btn btn-dark">Editar... </a>
+    <a href="/trainers/{{$trainer->id}}" class="btn btn-dark"> Mostrar... </a>
+    <a href="/imprimir" class="btn btn-dark"> Imprimir. </a>
   </div>
 </div>
 </div>

@@ -14,6 +14,10 @@ class TrainerController extends RoutingController
      *
      * @return \Illuminate\Http\Response
      */
+    public function imprimir()
+    {
+        
+    }
     public function index()
     {
         $trainers=Trainer::all();

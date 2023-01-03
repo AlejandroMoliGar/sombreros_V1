@@ -5,6 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
+                <a href="/trainers" class="btn btn-primary"> ir a Sombreros  </a>
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">

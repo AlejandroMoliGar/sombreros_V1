@@ -40,7 +40,7 @@
     <a href="/delete/{{$trainer->id}}" class="btn btn-dark">Borrar...</a>
     <a href="/trainers/{{$trainer->id}}/edit" class="btn btn-dark">Editar... </a>
     <a href="/trainers/{{$trainer->id}}" class="btn btn-dark"> Mostrar... </a>
-    <a href="/imprimir" class="btn btn-dark"> Imprimir. </a>
+    <a href="/imprimir" class="btn btn-dark"> im. </a>
   </div>
 </div>
 </div>

@@ -5,6 +5,8 @@
     @method('PUT')
     @csrf
 <div clas="form-group">
+<a href="/trainers" class="btn btn-primary"> Volver  </a>
+<br>
     <label for="">Marca:</label>
     <input type="text"  name="Marca" value ="{{$trainer->Marca}}" class="form-control">
     <label for="">Modelo:</label>

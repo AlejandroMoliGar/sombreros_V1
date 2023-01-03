@@ -106,4 +106,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::name('print')->get('/imprimir', 'SombrerosController@imprimir');
+Route::name('print')->get('/imprimir', 'TrainerController@imprimir');
